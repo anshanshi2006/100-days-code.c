@@ -8,11 +8,11 @@ int main()
     scanf("%d", &n);
     int arr[n];//declaring an array of size n
     printf("enter the elements of array:\n");
-    for(i=1;i<=n;i++)
+    for(i=0;i<=n;i++)
     {
      scanf("%d", &arr[i]);
     }
-    for(i=1;i<=n;i++)
+    for(i=0;i<=n;i++)
     {
         sum=sum+arr[i];//calculating sum
     }
