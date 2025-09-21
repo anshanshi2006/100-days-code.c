@@ -8,13 +8,13 @@ int main()
     scanf("%d", &n);
     int arr[n];//declaring an array
     printf("Enter array elements:\n");
-    for(i=0;i<=n;i++)
+    for(i=0;i<n;i++)
     {
         scanf("%d", &arr[i]);
     }
     max=arr[0];//assuming first element as maximum and minimum
     min=arr[0];
-    for(i=1;i<=n;i++)
+    for(i=1;i<n;i++)
     {
         if(arr[i]>max)//condition for maximum
         {
