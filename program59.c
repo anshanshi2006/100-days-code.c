@@ -8,11 +8,11 @@ int main()
     scanf("%d", &n);
     int arr[n];
     printf("enter the elements of array:\n");
-    for(i=1;i<=n;i++)
+    for(i=0;i<n;i++)
     {
         scanf("%d", &arr[i]);
     }
-    for(i=1;i<=n;i++)//to check even or odd number
+    for(i=0;i<n;i++)//to check even or odd number
     {
         if(arr[i]%2==0)
         {
