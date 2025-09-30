@@ -8,7 +8,7 @@ int main()
     printf("Enter size of array: ");
     scanf("%d", &n);
 
-    int arr[n];  // enough space for extra element
+    int arr[n+1];  // enough space for extra element
     printf("Enter %d sorted elements: \n", n);
     for(i = 0; i < n; i++) 
     {
